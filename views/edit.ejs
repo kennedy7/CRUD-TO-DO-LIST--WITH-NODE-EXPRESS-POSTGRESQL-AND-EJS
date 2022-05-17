@@ -12,10 +12,10 @@
     </header>
     <div class="container">
       <div class="container-header">
-        <h1>Edit Item</h1>
+        <h1>Edit To-do</h1>
       </div>
       <div class="item-form-wrapper">
-        <p class="form-label">Item</p>
+        <p class="form-label">To-do</p>
         <form action="/update/<%= item.id %>" method="post">
           <input type="text" name="itemName" value="<%= item.name %>">
           <input type="submit" value="Update">
